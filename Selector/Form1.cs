@@ -18,6 +18,9 @@ namespace Selector
 
             if (usrName != "") //Si el nombre de usuario no esta vacío...
             {
+                //ConexionBD.ObtenerConexion(); //Intentar conectar a la BD.
+
+
                 Form2 form2 = new Form2(); //Declaración de nuevo formulario.
                 form2.Show(); //Mostrar Formulario 2
                 this.Hide(); //Esconder este formulario (La aplicación continuará abierta.)
