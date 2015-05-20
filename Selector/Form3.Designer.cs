@@ -43,7 +43,7 @@
             // btnCerrar
             // 
             this.btnCerrar.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.btnCerrar.Location = new System.Drawing.Point(12, 396);
+            this.btnCerrar.Location = new System.Drawing.Point(12, 413);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(75, 29);
             this.btnCerrar.TabIndex = 1;
@@ -54,7 +54,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.button2.Location = new System.Drawing.Point(361, 396);
+            this.button2.Location = new System.Drawing.Point(394, 413);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(138, 29);
             this.button2.TabIndex = 2;
@@ -74,30 +74,31 @@
             // 
             this.textUsr.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textUsr.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textUsr.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textUsr.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textUsr.ForeColor = System.Drawing.Color.White;
             this.textUsr.Location = new System.Drawing.Point(12, 12);
+            this.textUsr.Multiline = true;
             this.textUsr.Name = "textUsr";
-            this.textUsr.Size = new System.Drawing.Size(453, 19);
+            this.textUsr.Size = new System.Drawing.Size(520, 28);
             this.textUsr.TabIndex = 5;
             // 
             // txtNombre
             // 
             this.txtNombre.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtNombre.Font = new System.Drawing.Font("Times New Roman", 11F);
-            this.txtNombre.Location = new System.Drawing.Point(12, 37);
+            this.txtNombre.Location = new System.Drawing.Point(12, 46);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(186, 24);
+            this.txtNombre.Size = new System.Drawing.Size(196, 24);
             this.txtNombre.TabIndex = 6;
             // 
             // txtDesc
             // 
             this.txtDesc.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtDesc.Font = new System.Drawing.Font("Times New Roman", 11F);
-            this.txtDesc.Location = new System.Drawing.Point(12, 95);
+            this.txtDesc.Location = new System.Drawing.Point(12, 104);
             this.txtDesc.Multiline = true;
             this.txtDesc.Name = "txtDesc";
-            this.txtDesc.Size = new System.Drawing.Size(238, 273);
+            this.txtDesc.Size = new System.Drawing.Size(196, 273);
             this.txtDesc.TabIndex = 7;
             // 
             // label1
@@ -105,7 +106,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(9, 75);
+            this.label1.Location = new System.Drawing.Point(12, 84);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(174, 17);
             this.label1.TabIndex = 8;
@@ -113,9 +114,9 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(256, 37);
+            this.pictureBox1.Location = new System.Drawing.Point(214, 46);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(243, 331);
+            this.pictureBox1.Size = new System.Drawing.Size(318, 331);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
@@ -125,7 +126,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.ClientSize = new System.Drawing.Size(511, 437);
+            this.ClientSize = new System.Drawing.Size(544, 454);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtDesc);

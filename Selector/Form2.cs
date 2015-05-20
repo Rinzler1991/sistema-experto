@@ -64,9 +64,10 @@ namespace Selector
             }
 
             else
-            {
+            {                
                 Form3 form3 = new Form3();
                 form3.Show();
+                resultado = 0;
 
                 this.Dispose();
             }

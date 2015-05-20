@@ -35,14 +35,17 @@ namespace Selector
                 Query.CommandText = "SELECT * FROM datos.instrumentos WHERE idinstrumentos="+Form2.idInstrumento;
                 Query.Connection = Conexion;
                 consultar = Query.ExecuteReader();
-
-                while (consultar.Read())
+                
+                while (consultar.Read()) //Mientras ocurra la lectura, imprimir datos en las cajas de texto correspondientes.
                 {
                     string nombre = consultar.GetString(1);
                     string descripcion = consultar.GetString(2);
+                    string imagen = consultar.GetString(3);
 
                     txtNombre.Text = nombre;
-                    txtDesc.Text = descripcion;
+                    txtDesc.Text = descripcion;                    
+                    pictureBox1.ImageLocation = imagen;
+                    pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
                 }
 
                 Conexion.Close();
