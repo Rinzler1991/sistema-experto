@@ -50,7 +50,7 @@
             this.radioButton12 = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.linkLabelReiniciar = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -65,7 +65,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(631, 17);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Por favor contesta las siguientes preguntas para ayudarte a elegir el instrumento" +
+            this.label1.Text = "Por favor contesta las siguientes preguntas para ayudarte a elegir el idInstrumento" +
     " apropiado según tu perfil.";
             // 
             // groupBox1
@@ -284,29 +284,29 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "Puedes avanzar entre preguntas con la tecla TAB";
             // 
-            // textBox1
+            // textUsr
             // 
             this.textBox1.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(13, 273);
-            this.textBox1.Name = "textBox1";
+            this.textBox1.Name = "textUsr";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(309, 22);
             this.textBox1.TabIndex = 9;
             this.textBox1.TabStop = false;
             // 
-            // linkLabel2
+            // linkLabelReiniciar
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.linkLabel2.Location = new System.Drawing.Point(12, 298);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(83, 13);
-            this.linkLabel2.TabIndex = 11;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Cambiar nombre";
-            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            this.linkLabelReiniciar.AutoSize = true;
+            this.linkLabelReiniciar.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.linkLabelReiniciar.Location = new System.Drawing.Point(12, 298);
+            this.linkLabelReiniciar.Name = "linkLabelReiniciar";
+            this.linkLabelReiniciar.Size = new System.Drawing.Size(83, 13);
+            this.linkLabelReiniciar.TabIndex = 11;
+            this.linkLabelReiniciar.TabStop = true;
+            this.linkLabelReiniciar.Text = "Cambiar nombre";
+            this.linkLabelReiniciar.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelReiniciar_LinkClicked);
             // 
             // Form2
             // 
@@ -314,7 +314,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(656, 431);
-            this.Controls.Add(this.linkLabel2);
+            this.Controls.Add(this.linkLabelReiniciar);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.groupBox4);
@@ -367,6 +367,6 @@
         private System.Windows.Forms.RadioButton radioButton12;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.LinkLabel linkLabelReiniciar;
     }
 }

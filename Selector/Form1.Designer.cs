@@ -66,6 +66,7 @@
             this.txtUsrName.Name = "txtUsrName";
             this.txtUsrName.Size = new System.Drawing.Size(249, 24);
             this.txtUsrName.TabIndex = 2;
+            this.txtUsrName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUsrName_KeyPress);
             // 
             // btnIniciar
             // 
